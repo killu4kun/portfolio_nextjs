@@ -9,11 +9,11 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <h1 className="py-4 text-[#570A57]">
+          <h1 className="py-4 text-[#A91079]">
             Matheus <span className="text-[#F806CC]"> &quot;Kilua&quot;</span> Soares
           </h1>
-          <h1 className="py-2 text-gray-700">Front-End Web Dev</h1>
-          <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
+          <h1 className="py-2 text-[#F806CC]">Front-End Web Dev</h1>
+          <p className="py-4 text-[#A91079] sm:max-w-[70%] m-auto">
             Actually i&apos;m a full-stack enginneer but right now im totally focused in honing my front end skills to the max degree.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
