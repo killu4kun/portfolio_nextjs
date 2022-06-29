@@ -20,6 +20,7 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* PEGAR A PARTIR DAQUI */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -30,6 +31,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+          {/* ATÉ AQUI */}
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
