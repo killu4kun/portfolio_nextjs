@@ -13,28 +13,25 @@ const About = () => {
           </p>
           <p className="py-2 text-[#3AB4F2]">/ / Just do it</p>
           <p className="py-2 text-[#0078AA]">
-            Fusce ligula urna, ultrices feugiat venenatis lacinia, elementum vel
-            eros. Nunc laoreet enim risus, quis laoreet velit pharetra eu.
-            Curabitur sollicitudin, elit eget blandit venenatis, purus nibh
-            vulputate lectus, id interdum magna est ut lacus. Aliquam maximus
-            justo non ultrices tempor. Vivamus maximus non mi ut vehicula.
-            Pellentesque mollis in justo vitae hendrerit. Praesent vel interdum
-            nibh. Aliquam viverra tristique bibendum. Donec mollis nibh mauris,
-            vel laoreet felis ultrices venenatis. Praesent ac metus et mi
-            lacinia cursus vel sed sem. Duis dignissim vitae purus eget tempus.
-            Duis id orci consectetur dui tristique rutrum.
+            Nascido e crescido em Uberaba,Minas Gerais,a terra do zebu.Venho de
+            uma familia humilde mas batalhadora,durante minha infância fui
+            criado pelos meus avós pois minha mae trabalhava durante o dia e
+            cursava Serviço Social a noite pois ela tinha um sonho.Tive uma
+            educação básica durante toda minha vida,estudei em escolas do
+            governo durante minha vida toda,era básica mas de qualidade.Logo
+            após me formar no ensino médio,cheguei a cursar Matematica,Eng
+            Ambiental e finalmente Eng. Computação pela federal de minha cidade,
+            mas ainda não tinha me desenvolvido mentalmente para uma faculdade
+            mas ali descobri minha vocação que era ser programador.
           </p>
           <p className="py-2 text-[#0078AA]">
-            Sed ac purus et libero egestas vehicula id in leo. Curabitur in
-            laoreet tortor, in dignissim justo. Quisque tempus justo eu semper
-            mollis. Duis accumsan a magna sit amet blandit. Aenean accumsan
-            dapibus dolor at dictum. Phasellus ornare eu dui quis convallis. Nam
-            feugiat enim ex, sit amet tincidunt orci molestie vitae. Vivamus
-            euismod purus vel nisl gravida dapibus a vitae mi. Donec posuere
-            nisi lorem. Praesent elementum, risus in semper hendrerit, purus
-            nisl placerat diam, a vestibulum tortor est vel massa. Aliquam a
-            tellus sit amet leo consequat mattis in vitae enim. Vestibulum
-            vulputate lacinia tempus.
+            Logo após o abandono da faculdade,me deparei com um amigo de
+            infancia que já morava em outro estado mas me contava de um curso de
+            programação full-stack sem precisar pagar nada,a Trybe,foi ali que
+            tomei uma escolha que mudou minha vida e me abriu portar para esse
+            mundo imenso que é a programação. Atualmente me formei pela trybe ,
+            consigo atuar tanto no front como no back, mas adquiri uma paixão
+            pelo front.Hoje busco oportunidades para agregar valor e melhorar minhas habilidades.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-[#F2DF3A] underline cursor-pointer">
