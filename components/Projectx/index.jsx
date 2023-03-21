@@ -1,8 +1,9 @@
 import React from "react";
-import houseImg from '../../public/assets/house.png'
-import pomodoroImg from '../../public/assets/pomodoro.png'
-import kilua from '../../public/assets/9kkd.gif'
-import ProjectItem from '../ProjectItem'
+import houseImg from "../../public/assets/house.png";
+import pomodoroImg from "../../public/assets/pomodoro.png";
+import kilua from "../../public/assets/9kkd.gif";
+import ProjectItem from "../ProjectItem";
+import qrCodImg from "../../public/assets/qr-code.png"
 
 const Projects = () => {
   return (
@@ -26,10 +27,10 @@ const Projects = () => {
             tech="React Native"
           />
           <ProjectItem
-            title="IN PROGRESS"
-            backgroundImg={kilua}
-            projectUrl="/kilua"
-            tech="React JS"
+            title="QR CODE GENERATOR"
+            backgroundImg={qrCodImg}
+            projectUrl="/qrCode"
+            tech="React"
           />
           <ProjectItem
             title="TO BE MADE"
