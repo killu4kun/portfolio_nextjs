@@ -14,13 +14,14 @@ export const Contact = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = () => {
-    setName("");
-    setPhone("");
-    setEmail("");
-    setSubject("");
-    setMessage("");
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    if (name === "" || phone === "" || email === "" || subject === "" || message === "") {
+      return;
+    }
   };
+
+  const isFormEmpty = name === "" || phone === "" || email === "" || subject === "" || message === "";
 
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -147,8 +148,9 @@ export const Contact = () => {
                     onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
+
+                <button className="w-full p-4 text-gray-100 mt-4 disabled:text-blue-50" disabled={isFormEmpty}>
+                  {isFormEmpty ? "Fill out the form" : "Send"}
                 </button>
               </form>
             </div>
