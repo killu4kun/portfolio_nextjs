@@ -27,9 +27,9 @@ export const Contact = () => {
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
-          Contact
+          Contato
         </p>
-        <h2 className="py-4">Get In Touch</h2>
+        <h2 className="py-4">Fale comigo</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -45,12 +45,11 @@ export const Contact = () => {
                 <h2 className="py-2 text-[#5651e5]">Matheus Soares</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4  text-[#5651e5]">
-                  I am available for freelance or full-time positions. Contact
-                  me and let&apos;s talk.
+                Estou disponível para freelas e oportunidades de trabalho.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8  text-[#5651e5]">Connect With Me</p>
+                <p className="uppercase pt-8  text-[#5651e5]">Redes sociais</p>
                 <div className="flex items-center justify-between py-4">
                   <a
                     href="https://www.linkedin.com/in/mateeus-soarees/"
@@ -67,7 +66,7 @@ export const Contact = () => {
                     rel="noreferrer"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub color="#F2DF3A"/>
+                      <FaGithub color="#9ba600"/>
                     </div>
                   </a>
 
@@ -77,7 +76,7 @@ export const Contact = () => {
                   <Link href="/resume">
                     <a>
                       <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill color="#F2DF3A"/>
+                        <BsFillPersonLinesFill color="#9ba600"/>
                       </div>
                     </a>
                   </Link>
@@ -96,7 +95,7 @@ export const Contact = () => {
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2 text-[#3AB4F2]">Name</label>
+                    <label className="uppercase text-sm py-2 text-[#3AB4F2]">Nome</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
@@ -107,7 +106,7 @@ export const Contact = () => {
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2 text-[#3AB4F2]">
-                      Phone Number
+                      Telefone
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
@@ -129,7 +128,7 @@ export const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2 ">
-                  <label className="uppercase text-sm py-2 text-[#3AB4F2]">Subject</label>
+                  <label className="uppercase text-sm py-2 text-[#3AB4F2]">Assunto</label>
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
@@ -139,7 +138,7 @@ export const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2 text-[#3AB4F2]">Message</label>
+                  <label className="uppercase text-sm py-2 text-[#3AB4F2]">Mensagem</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
@@ -150,7 +149,7 @@ export const Contact = () => {
                 </div>
 
                 <button className="w-full p-4 text-gray-100 mt-4 disabled:text-blue-50" disabled={isFormEmpty}>
-                  {isFormEmpty ? "Fill out the form" : "Send"}
+                  {isFormEmpty ? "Preencha todos os campos" : "Enviar"}
                 </button>
               </form>
             </div>

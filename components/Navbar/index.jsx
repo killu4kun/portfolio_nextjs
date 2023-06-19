@@ -74,16 +74,16 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#about">About</Link>
+              <Link href="/#about">Sobre</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#skills">Skills</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#projects">Projects</Link>
+              <Link href="/#projects">Projetos</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/#contact">Contact</Link>
+              <Link href="/#contact">Contato</Link>
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -126,7 +126,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-[#0078AA]">
-                Let&#39;s dive into my portfolio
+                Menu
               </p>
             </div>
           </div>
@@ -139,7 +139,7 @@ const Navbar = () => {
               </Link>
               <Link href="/#about">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  About
+                  Sobre
                 </li>
               </Link>
               <Link href="/#skills">
@@ -149,23 +149,18 @@ const Navbar = () => {
               </Link>
               <Link href="/#projects">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Projects
-                </li>
-              </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Resume
+                  Projetos
                 </li>
               </Link>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
-                  Contact
+                  Contato
                 </li>
               </Link>
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#0078AA]">
-                Let&#39;s Connect
+                Redes Sociais
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <a
@@ -182,7 +177,7 @@ const Navbar = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 text-[#F2DF3A] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 text-[#9ba600] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </a>
@@ -197,7 +192,7 @@ const Navbar = () => {
                 <Link href="/resume">
                   <div
                     onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 text-[#F2DF3A] p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                    className="rounded-full shadow-lg shadow-gray-400 text-[#9ba600] p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
                     <BsFillPersonLinesFill />
                   </div>
