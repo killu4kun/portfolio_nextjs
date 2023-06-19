@@ -55,8 +55,7 @@ const About = () => {
             meu conhecimento, agregar valor e aprimorar minhas habilidades como
             profissional. Estou em busca de desafios empolgantes que me permitam
             deixar minha marca no campo da programação, trazendo inovação e
-            excelência em cada projeto que abraço. Por favor, sinta-se à vontade
-            para embelezar ainda mais este texto, caso julgue necessário.
+            excelência em cada projeto que abraço.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-[#9ba600] underline cursor-pointer'>
